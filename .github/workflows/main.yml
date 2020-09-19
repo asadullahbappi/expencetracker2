@@ -31,7 +31,7 @@ jobs:
         # uses: funkyremi/yarn-github-action@234d1515543a08ce49880746d2d19dd0c8b983a8
         uses: Borales/actions-yarn@v2.1.0
         with:
-          cmd: Install
+          cmd: install
 
       - name: creating build
         run: yarn build
